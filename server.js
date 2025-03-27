@@ -21,7 +21,7 @@ app.get('/users', (req, res) => {
     res.json(users);
 })
 
-// Middleware to parse the JSON data
+// Middleware to parse the JSON data from the front end
 app.use(express.json());
 
 app.post ("/users", (req, res) => {
